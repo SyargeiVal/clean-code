@@ -109,6 +109,7 @@ li > * {
 li > input[type="checkbox"] {
     margin: 0 10px;
 }
+
 li > label {
     padding-left: 10px;
     box-sizing: border-box;
@@ -118,11 +119,13 @@ li > label {
 li >    input[type="text"] {
     width: 226px;
 }
+
 button.delete img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
+
 button.delete img:hover {
     transform: rotateZ(0);
 }
